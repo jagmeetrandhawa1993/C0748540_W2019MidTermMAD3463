@@ -4,6 +4,12 @@ public class MagicalCardGameCalculator implements Interface
 {
   @Override
   public String[][] getFirstShuffleResult(MagicalCardGameModel magicalCardGameModel) {
+    String[][] Matrix = tranpose(magicalCardGameModel.getCardList());
+    if (magicalCardGameModel.getFirstShuffleColPos().equalsIgnoreCase("1")) {
+      Matrix = interchangeRows(finalMatrix, 1, 2);
+    } else if (magicalCardGameModel.getFirstShuffleColPos().equalsIgnoreCase("3")) {
+      Matrix = interchangeRows(finalMatrix, 1, 2);
+      Matrix = interchangeRows(finalMatrix, 2, 3);
     return new String[0][];
   }
 
