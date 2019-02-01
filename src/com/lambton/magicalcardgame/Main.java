@@ -18,6 +18,15 @@ public class Main {
 
                 column1(gameModel.getCardList());
 
+        displayMatrix( gameModel.getCardList());
+        Scanner s= new Scanner(System.in);
+        System.out.println("Enter the column Number ");
+        gameModel.setSecShuffleColPos(s.next());
+
+        gameCalculator.getFirstShuffleResult(gameModel);
+
+        column1(gameModel.getCardList());
+
             }
 
             private static void column1(String[][] cardList) {
@@ -54,8 +63,7 @@ public class Main {
                 }
             }
 
-    Scanner sc= new Scanner(System.in);
-                System.out.println("Enter the column Number ");
+
 
 
         }
