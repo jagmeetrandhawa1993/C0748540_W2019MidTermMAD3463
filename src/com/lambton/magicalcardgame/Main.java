@@ -21,7 +21,7 @@ public class Main {
         //displayMatrix( gameModel.getCardList());
         Scanner s= new Scanner(System.in);
         System.out.println("Enter the column Number ");
-        gameModel.setSecShuffleColPos(s.next());
+        //gameModel.setSecShuffleColPos(s.next());
 
         gameCalculator.getFirstShuffleResult(gameModel);
 
