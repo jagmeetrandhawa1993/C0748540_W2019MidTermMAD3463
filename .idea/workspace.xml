@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5651d126-6bf1-4b5b-8306-69eda8325271" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lambton/magicalcardgame/MagicalCardGameCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lambton/magicalcardgame/MagicalCardGameCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lambton/magicalcardgame/MagicalCardGameModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lambton/magicalcardgame/MagicalCardGameModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lambton/magicalcardgame/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lambton/magicalcardgame/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/lambton/magicalcardgame/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="74" selection-start-line="33" selection-start-column="74" selection-end-line="33" selection-end-column="74" />
+            <state relative-caret-position="268">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -62,17 +61,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lambton/magicalcardgame/Interface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="76" selection-start-line="6" selection-start-column="76" selection-end-line="6" selection-end-column="76" />
+            <state>
+              <caret selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lambton/magicalcardgame/MagicalCardGameCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+            <state relative-caret-position="68">
+              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+              <folding>
+                <element signature="e#764#765#0" expanded="true" />
+                <element signature="e#802#803#0" expanded="true" />
+                <element signature="e#904#905#0" expanded="true" />
+                <element signature="e#942#943#0" expanded="true" />
+                <element signature="e#1035#1036#0" expanded="true" />
+                <element signature="e#1062#1063#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,9 +102,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/jagmeet/Main.java" />
         <option value="$PROJECT_DIR$/src/com/lambton/magicalcardgame/Interface.java" />
-        <option value="$PROJECT_DIR$/src/com/lambton/magicalcardgame/Main.java" />
         <option value="$PROJECT_DIR$/src/com/lambton/magicalcardgame/MagicalCardGameModel.java" />
         <option value="$PROJECT_DIR$/src/com/lambton/magicalcardgame/MagicalCardGameCalculator.java" />
+        <option value="$PROJECT_DIR$/src/com/lambton/magicalcardgame/Main.java" />
       </list>
     </option>
   </component>
@@ -139,7 +146,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548995648351" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548995896511" />
     <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/C0747197_W2019MidTermMAD3463-master" />
   </component>
   <component name="RunDashboard">
@@ -154,7 +161,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lambton.magicalcardgame.Main" />
+      <module name="C0748540_W2019MidTermMAD3463" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lambton.magicalcardgame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.jagmeet.Main" />
       <module name="C0748540_W2019MidTermMAD3463" />
@@ -165,6 +185,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -188,14 +217,15 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -211,13 +241,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/lambton/magicalcardgame/Interface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="76" selection-start-line="6" selection-start-column="76" selection-end-line="6" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lambton/magicalcardgame/MagicalCardGameModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="823">
@@ -251,17 +274,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lambton/magicalcardgame/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lambton/magicalcardgame/Interface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="74" selection-start-line="33" selection-start-column="74" selection-end-line="33" selection-end-column="74" />
+        <state>
+          <caret selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lambton/magicalcardgame/MagicalCardGameCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+        <state relative-caret-position="68">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding>
+            <element signature="e#764#765#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lambton/magicalcardgame/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
