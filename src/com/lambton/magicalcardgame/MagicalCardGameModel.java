@@ -3,11 +3,15 @@ package com.lambton.magicalcardgame;
 public class MagicalCardGameModel {
     String firstShuffleColPos;
     String secShuffleColPos;
-    String [][]cardList=null;
+    //String [][]cardList=null;
     String [][]firstShuffle=null;
     String [][]secShuffle=null;
     String guessedCard;
 
+
+    String [][]cardList = { {"1","A","5"},
+            {"2","7","3"},
+            {"3","6","K"} };
 
     public String getFirstShuffleColPos() {
         return firstShuffleColPos;
@@ -59,11 +63,15 @@ public class MagicalCardGameModel {
 
     public String[][] getFirstShuffleResult(MagicalCardGameModel magicalCardGameModel)
     {
+        String firstShuffleColPos= "C3";
+        
+        return new String[i][j];
+
 
     }
     public String[][] getSecShuffleResult(MagicalCardGameModel magicalCardGameModel)
     {
-
+        String secShuffleColPos= "C3";
     }
     public String getFinalResult(MagicalCardGameModel magicalCardGameModel)
     {
