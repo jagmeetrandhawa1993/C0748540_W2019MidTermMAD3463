@@ -61,21 +61,15 @@ public class MagicalCardGameModel {
         this.guessedCard = guessedCard;
     }
 
-    public String[][] getFirstShuffleResult(MagicalCardGameModel magicalCardGameModel)
-    {
-        String firstShuffleColPos= "C3";
-        
-        return new String[i][j];
 
-
-    }
     public String[][] getSecShuffleResult(MagicalCardGameModel magicalCardGameModel)
     {
         String secShuffleColPos= "C3";
+        return String[][];
     }
     public String getFinalResult(MagicalCardGameModel magicalCardGameModel)
     {
-
+         return null;
     }
 
 }
