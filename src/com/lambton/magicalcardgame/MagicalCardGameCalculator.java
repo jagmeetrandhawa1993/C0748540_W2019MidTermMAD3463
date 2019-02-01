@@ -1,9 +1,19 @@
+
 package com.lambton.magicalcardgame;
-
-public class MagicalCardGameCalculator
+public class MagicalCardGameCalculator implements Interface
 {
-  MagicalCardGameModel M=new MagicalCardGameModel();
+  @Override
+  public String[][] getFirstShuffleResult(MagicalCardGameModel magicalCardGameModel) {
+    return new String[0][];
+  }
 
+  @Override
+  public String[][] getSecShuffleResult(MagicalCardGameModel magicalCardGameModel) {
+    return new String[0][];
+  }
 
-
+  @Override
+  public String getFinalResult(MagicalCardGameModel magicalCardGameModel) {
+    return null;
+  }
 }
