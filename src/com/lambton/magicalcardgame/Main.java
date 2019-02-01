@@ -53,5 +53,10 @@ public class Main {
                     System.out.println();
                 }
             }
+
+    Scanner sc= new Scanner(System.in);
+                System.out.println("Enter the column Number ");
+
+
         }
 
